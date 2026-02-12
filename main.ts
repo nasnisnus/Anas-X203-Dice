@@ -1,7 +1,7 @@
 function SetDevicePattern () {
     list = [
     images.createImage(`
-        . # . . .
+        . . . . .
         . . . . .
         . . # . .
         . . . . .
