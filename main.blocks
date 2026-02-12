@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="dG8WcK%O1gk[#cyqmogN">myImage</variable><variable id="{N_.v^:~j6((jv*=G.=[">list</variable></variables><block type="pxt-on-start" id="cIvjtMjyy2VQoGezpv$u" x="0" y="0"><statement name="HANDLER"><block type="function_call" id="~rv)=Cey39Z9ib[vtUA8"><mutation name="SetDevicePattern" functionid="(1N;8odfgI=#t%WU)vv)"></mutation><next><block type="function_call" id="m/*F2/,}u7.H|9!;b8c%"><mutation name="RollDice" functionid="EL{I@uWVPrbFp=$y)aO!"></mutation></block></next></block></statement></block><block type="function_definition" id="vP%L7D;aIh@s_7^/+D-l" x="-363" y="51"><mutation name="SetDevicePattern" functionid="(1N;8odfgI=#t%WU)vv)"></mutation><field name="function_name">SetDevicePattern</field><statement name="STACK"><block type="variables_set" id="DCX/K#6oVv|.j%OV(IuU"><field name="VAR" id="{N_.v^:~j6((jv*=G.=[">list</field><value name="VALUE"><block type="lists_create_with" id="f$1N:+3)3CzuMSfs5msU" inline="false"><mutation items="6" horizontalafter="3"></mutation><value name="ADD0"><shadow type="math_number" id="X++]@YX[Jt}PAQl6o!aX"><field name="NUM">0</field></shadow><block type="device_build_image" id="R[71)Qkk!V[hG~Xy~CuI"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD1"><shadow type="math_number" id="LNH:6D=/T]ptnJ2qP|pq"><field name="NUM">1</field></shadow><block type="device_build_image" id="eBo|;R/;]r)W?@e(3M$K"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD2"><shadow type="math_number" id="oC92G9pnbiX7`]y?k]}U"><field name="NUM">0</field></shadow><block type="device_build_image" id="DHx{~wb*mt90@*ngbm;L"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD3"><shadow type="math_number" id="Kt{3P.^LCjwo2C:0M726"><field name="NUM">0</field></shadow><block type="device_build_image" id="`T^pk`w*{!h^s5@N8dsb"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD4"><shadow type="math_number" id="6f./:zRjlpnr{sFxic8+"><field name="NUM">0</field></shadow><block type="device_build_image" id="~yPY+L1sY{Ka1yJoqC)Q"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD5"><shadow type="math_number" id=":Y|l_*ZU7Q(qyaT(.!(0"><field name="NUM">0</field></shadow><block type="device_build_image" id="SaMn}G|Xf@q%hwt2Y.Z%"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field></block></value></block></value></block></statement></block><block type="function_definition" id="A[nV`eUwXM?{YkgOYu]0" x="140" y="209"><mutation name="RollDice" functionid="EL{I@uWVPrbFp=$y)aO!"></mutation><field name="function_name">RollDice</field><statement name="STACK"><block type="device_show_image_offset" id="ntq0Z?F)AMEFx*JAB|jb"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="lists_index_get" id="N1C@YSfFZ$aryeG4V5zQ"><value name="LIST"><block type="variables_get" id="(R|uW1moppuI2}~eUM+^"><field name="VAR" id="{N_.v^:~j6((jv*=G.=[">list</field></block></value><value name="INDEX"><shadow type="math_number" id="PRFcBE[yf!yX!Ig(ZyB!"><field name="NUM">0</field></shadow><block type="device_random" id="1YWL`9jak_!P6mc;7z?q"><value name="min"><shadow type="math_number" id="-,X!yMg.NVm^sgwLP@E9"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="|JG_OKbcm;.v;rEj=z7z"><field name="NUM">5</field></shadow></value></block></value></block></value><value name="offset"><shadow type="math_number" id="Vk[q5!h^3Q+QD=!RX#hl"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="T$8)J6h,]hCimF`a@=w7"><field name="NUM">400</field></shadow></value></block></statement></block></xml>
